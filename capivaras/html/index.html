@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capivaras</title>
+        <link rel="shortcut icon" href="../src/capivara.png" type="image/x-icon">
+        <link rel="stylesheet" href="../scripts/reset.css">
+        <link rel="stylesheet" href="../scripts/style.css">
+    </head>
+<body>
+    <div class="principal" id="inicio">
+        <h1>Site de Venda de Capivaras</h1>
+
+        <p class="texto-principal">Seja bem vindo ao site de <del>contrabando</del> venda de capivaras especiais, <b>estas que são as melhores capivaras do <mark>universo</mark></b></p>
+        <img src="../src/capivaras-principal.webp" class="imagem-principal" alt="">
+        <div class="estilizador"></div>
+    </div>
+
+    <div class="ancora"> 
+        <a href="#inicio" class="menu"  accesskey="1">Início(Alt + 1)</a> 
+        <a href="#vitrine"class="menu" accesskey="2">Vitrine(Alt + 2)</a>
+        <a href="#compra"class="menu" accesskey="3">Compra(Alt + 3)</a>
+        <a href="#mapa" class="menu" accesskey="4">Loja Física(Alt + 4)</a>
+        <a href="#tutorial" class="menu" accesskey="5">Tutorial(Alt + 5)</a>
+    </div>
+
+    <div class="troca-pagina" id="vitrine">
+        <h1 >Vitrine</h1>
+        <ol>
+            <li><a href="capivara-amiga.html">Capivaramiga</a></li>
+            <li><a href="capivara-bailarina.html">Capivailarina</a></li>
+            <li><a href="capivara-bebe.html">Capivara-bebe</a></li>
+            <li><a href="capivara-donut.html">Capivara-donut</a></li>
+            <li><a href="capivara-estudiosa.html">Capivara-estudiosa</a></li>
+            <li><a href="capivara-feliz.html">Capivara-feliz</a></li>
+            <li><a href="capivara-IA.html">CapivarIA</a></li>
+        </ol>
+    </div>
+
+    <div class="formulario" id="compra">
+        <h1>Compre aqui</h1>
+                <div class="fieldset">
+                    <form action=""></form>
+
+                    <label for="name">Nome do comprador:</label> <br>
+                    <input type="text" id="name" name="name" placeholder="Coloque seu nome" maxlength="100"> <br><br>
+
+                    <label for="cpf">CPF (só números):</label> <br>
+                    <input type="number" id="cpf" name="cpf" placeholder="11111111111"> <br><br>
+                
+                    <label for="dataNasc">Data de Nascimento:</label><br>
+                    <input type="date"><br><br>
+
+                    <label for="e-mail">E-mail:</label> <br>
+                    <input type="email" placeholder="Digite seu email"> <br><br>
+                
+                    <label for="capivara">Capivara:</label> <br>
+                    <input type="checkbox" name="capivara" value="Capivaramiga">Capivaramiga
+                    <input type="checkbox" name="capivara" value="Capivailarina">Capivailarina
+                    <input type="checkbox" name="capivara" value="Capivara-bebe">Capivara-bebe
+                    <input type="checkbox" name="capivara" value="Capivara-donut">Capivara-donut
+                    <input type="checkbox" name="capivara" value="Capivara-estudiosa">Capivara-estudiosa
+                    <input type="checkbox" name="capivara" value="Capivara-feliz">Capivara-feliz
+                    <input type="checkbox" name="capivara" value="CapivarIA">CapivarIA <br> <br>
+
+                    <label for="camiseta">Cor da camiseta (brinde):</label> <br>
+                    <input type="color" name="camiseta" id="camiseta" default="rgb(162, 42, 134)"> <br><br>
+
+                    <input type="submit">
+                </div>
+        </form>
+    </div> <br> <br>
+
+    <hr>
+
+    <div class="mapa" id="mapa">
+        <h1 class="loja">Loja Física</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252435.22988819578!2d-42.538019750000004!3d-8.66294805
+        !2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x779d70f30299457%3A0x63d343eb51fea88f!2sParque%20Nacional%20Serra%20d
+        a%20Capivara!5e0!3m2!1spt-BR!2sbr!4v1748376648934!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="tutorial" id="tutorial">
+        <h1>Tutoriais:</h1>
+        <p class="texto-tutoriais">Como cuidar de uma capivara:</p>
+        <video src="../src/capivara-criada-em-casa.mp4" controls></video>
+        <p class="texto-tutoriais">Em áudio:</p>
+        <audio controls>
+            <source src="../src/capivara-criada-em-casa.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+</html>
