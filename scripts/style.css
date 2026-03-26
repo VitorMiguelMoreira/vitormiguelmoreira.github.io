@@ -154,7 +154,6 @@ button:hover{
         transition: none;
     }
     button:hover{
-        display: inline-block;
         background: #8538f8;
         color: #ffffff;
         margin: 0.7em 1em;
